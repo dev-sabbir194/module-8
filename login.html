@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontaowsome -->
+    <script src="https://kit.fontawesome.com/2ef84a41e7.js" crossorigin="anonymous"></script>
+  
+    <title>Login Form</title>
+    <style>
+       .container{
+            display: flex;
+            justify-content: center;
+            
+        }
+        nav {
+            display: flex;
+            justify-content:space-between;
+            border: 2px solid green;
+            padding: 10px;
+            background-color: #baa2fa;
+            
+        }
+        nav a{
+            text-decoration: none;
+            margin-right: 10px;
+            border-right: 1px solid green;
+            padding: 10px;
+            text-align: center;
+            background-color: #baa2fa;
+            width: 100%;
+        }
+
+        nav a:hover{
+            text-decoration: none;
+            padding: 10px;
+            text-align: center;
+            background-color: #9af0ff;
+            width: 100%;
+        }
+        .log{
+            border-left: 1px solid green;
+        }
+        .use{
+            border-right: none;
+        }
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .login-form input{
+            margin-top: 20px;
+            height: 50px;
+            background-color: #fa4059;
+            color: #f7e700;
+            border: 2px solid #baa2fa;
+            border-radius: 5px;
+            font-size: 15px;
+            font-weight: 700;
+        }
+
+        .login-form input:hover {
+            background-color: #9af0ff;
+            color: chocolate;
+            transition: 1s;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <span>
+            <a href="">Home</a>
+            <a href="">Dashboard</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+        </span>
+        <span>
+            <a class="log" href=""><i class="fa-solid fa-right-to-bracket"></i></i></a>
+            <a class="use" href=""><i class="fa-solid fa-user"></i></a>
+        </span>
+    </nav>
+    <header>
+
+    </header>
+    <section class="container">
+        <form class="login-form"
+        >
+        <h3>Please Login</h3>
+        <input type="emali" name="" id="" placeholder="Your Email" required>
+        <input type="password" name="" id="" placeholder="Password" required>
+        <input type="submit" value="Login">
+    </form>
+    </section>
+
+</body>
+</html>
